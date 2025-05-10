@@ -22,10 +22,7 @@ public class Homework1 {
 //     Метод возвращает подстроку, принимает диапазон начального и конечного индекса строки (не включая конечный) или только начальный,
 //     в таком случае вернет все с этого индекса и до конца
         String substringExample = "Hello World!";
-        String substringResult1 = substringExample.substring(2, 7);
-        String substringResult2 = substringExample.substring(7);
-        System.out.println("Substring result 1: " + substringResult1); // llo W
-        System.out.println("Substring result 2: " + substringResult2); // orld!
+        System.out.println(substringExample.substring(2,7)); // llo W
 
 //     Метод ищет первое вхождение и возвращает расположение (индекс) символа или подстроки из строки. Если в строке не найден
 //     нужный символ или подстрока, метод возвращает -1
